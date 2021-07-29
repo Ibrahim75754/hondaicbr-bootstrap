@@ -24,6 +24,9 @@ span{
     background: #264653;
 
 }
+.footer-bg{
+    background: black;
+}
 .banner-description{
     margin-top: 30px;
     font-weight: 300;
