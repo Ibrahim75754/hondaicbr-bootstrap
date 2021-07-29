@@ -4,8 +4,10 @@
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
- 
 }
+
+
+
 h1{
     font-weight: 700;
     font-size: 48px;
@@ -22,8 +24,6 @@ span{
     background: #264653;
 
 }
-
-
 .banner-description{
     margin-top: 30px;
     font-weight: 300;
@@ -41,9 +41,11 @@ span{
 
 .lead{
     color:#6C6C6C;
-    ;
 }
 .fa-star{
     color: #E77C40;
+}
 
+.partnar-bg{
+    background: linear-gradient(to bottom, #264653 0%, #000000 100%)
 }

@@ -16,11 +16,12 @@
 </head>
 
 <body>
-    <header class="banner-bg">
-        <section class="container text-white py-5">
+    <header class="banner-bg  text-light">
+        <section class="container py-5">
             <div class="row align-items-center justify-content-around">
                 <div class="col-sm-12 col-md-5 mb-4">
-                    <small class="fw-light">Computer-controlled digital transistorized with electronic advance</small>
+                    <small class="fw-light">Computer-controlled digital transistorized with electronic
+                        advance</small>
                     <h1 class="banner-title fw-bold">Honda CBR 300R</h1>
                     <p class="banner-description w-auto">Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do
@@ -28,7 +29,39 @@
                         sint. Velit officia
                         consequat
                         duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn btn-color px-5 py-3">Purchase</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-color px-5 py-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-secondary">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign up First</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-5">
+                                    <label for="">Username</label>
+                                    <input class="form-control" type="text"><br>
+                                    <label for="">Email</label>
+                                    <input class="form-control" type="email"><br>
+                                    <label for="">Password</label>
+                                    <input class="form-control" type="password"><br>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-color">SignUp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
@@ -120,7 +153,136 @@
 
             </div>
         </section>
+
+        <!-- client-section -->
+        <section class="container my-5">
+            <h1 class="text-center">Frequently Asked <span>Questions</span></h1>
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="p-5">
+                        <img class="img-fluid" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="p-5">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item my-3 border rounded">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the most important things I should
+                                        know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border rounded">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border rounded">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 border rounded">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- bonus part-1 -->
+        <section class="banner-bg text-light mb-5">
+            <div class="container d-flex justify-content-center p-5">
+                <div>
+                    <h1>LET'S STAY IN TOUCH
+                    </h1>
+                    <p>Get updates on sales, specials and more
+                    </p>
+                    <div>
+                        <label for="">Username</label>
+                        <input type=" text" class="form-control">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type=" password" class="form-control">
+                    </div><br>
+                    <button class="btn btn-color">Submit</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="partnar-bg text-light text-center p-5">
+            <h1>Our Honorable Partner</h1>
+            <div class="partnar mt-5">
+                <img class="mb-3" src="images/client/client1.png" alt="">
+                <img class="mb-3" src="images/client/client2.png" alt="">
+                <img class="mb-3" src="images/client/client3.png" alt="">
+                <img class="mb-3" src="images/client/client4.png" alt="">
+                <img class="mb-3" src="images/client/client5.png" alt="">
+                <img class="mb-3" src="images/client/client6.png" alt="">
+            </div>
+        </section>
     </main>
+
+    <!-- <footer class="container">
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+    </footer> -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
